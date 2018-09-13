@@ -1,0 +1,126 @@
+/* .container{
+    background-position: center;
+    background-color: rgb(223, 90, 90);
+    background-size: cover;
+    height: 100%;
+  }
+   */
+  /* .cont1{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  } */
+  /* h1{
+      font-family: Helvetica Neue, sans-serif sans-serif;
+      font-weight: 400;
+      color: rgb(255, 255, 255);
+      letter-spacing: -2px;
+      text-decoration: none;
+      position: absolute;
+      top:40%;
+      left: 60%;
+      text-shadow:  0 20px 25px #0e0d0d;
+  }
+
+  h1:before,
+  h1:after{
+      content:"";
+      padding: 0.8em 0.42em;
+      border: 10px solid #c0392b;
+      position: absolute;
+      top: -50%;
+      left: -15%;
+      width: 100%;
+      display: block;
+      transform: translateX(-50) translateY(-50);
+      z-index: -1;
+      animation:  5s infinite alternate ease-in-out movethis;
+  }
+
+  @keyframes movethis{
+      0%{
+          transform: translateX(-50)
+          translateY(-50)
+          rotate(0deg);
+       }
+      100% {
+        transform: translateX(-50)
+        translateY(-50)
+        rotate(45deg);
+      }
+  } */
+
+
+
+  @keyframes movethis {
+    0% {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+    100% {
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    }
+   }
+   
+   body {
+    background-color: #2e2e2e;
+    font-family: Helvetica, sans-serif;
+   }
+   
+   .one {
+    color: #fffbf1;
+
+    text-decoration: none;
+    letter-spacing: -2px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-shadow: 0 20px 25px #2e2e2e;
+   }
+   .one:after {
+    content: "";
+    padding: 0.8em 0.4em;
+    border: 15px solid #082a43;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    display: block;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+    animation: 5s infinite alternate ease-in-out movethis;
+   }
+
+
+   .two {
+    color: #fffbf1;
+    text-decoration: none;
+    letter-spacing: -2px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-shadow: 0 20px 25px #2e2e2e;
+   }
+
+   .two:after {
+    content: "";
+    padding: 0.8em 0.4em;
+    border: 15px solid #5fb5f3;
+    position: absolute;
+    top: -165%;
+    left: -85%;
+    width: 100%;
+    display: block;
+    transform: translateX(50%) translateY(50%);
+    z-index: -1;
+    animation: 5s infinite alternate ease-in-out movethis2;
+   }
+
+   @keyframes movethis2 {
+    0% {
+    transform: translateX(50%) translateY(50%) rotate(0deg);
+    }
+    100% {
+    transform: translateX(50%) translateY(50%) rotate(-45deg);
+    }
+   }

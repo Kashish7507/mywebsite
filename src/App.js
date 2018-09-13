@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Background from './components/Background/Background';
+import Name from './components/Name/Name';
+
 import './App.css';
 
 class App extends Component {
@@ -7,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
       <Background/>
+      <Name/>
       </div>
     );
   }
