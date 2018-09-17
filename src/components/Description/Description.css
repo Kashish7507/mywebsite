@@ -1,0 +1,17 @@
+  p{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #fffbf1;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-shadow: 0 20px 25px #140202;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+ }
+ button{
+   flex-wrap: wrap;
+ }
